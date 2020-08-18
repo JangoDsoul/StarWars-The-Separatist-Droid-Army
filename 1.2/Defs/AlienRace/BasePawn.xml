@@ -107,6 +107,21 @@
 					<defName>Wimp</defName>
 				</li>				
 			</disallowedTraits>		
+			<alienPartGenerator>
+			<colorChannels>
+    <li>
+        <name>skin</name>
+        <first Class="ColorGenerator_Options">
+            <options>
+                <li>
+                    <weight>10</weight>
+                    <only>RGBA(1.000, 1.000, 1.000, 1.000)</only>
+                </li>
+            </options>
+        </first>
+    </li>
+			</colorChannels>
+            </alienPartGenerator>
 	  </generalSettings>	  
 	</alienRace>	
     <comps>
